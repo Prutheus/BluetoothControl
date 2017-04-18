@@ -6,3 +6,9 @@ The BluetoothControl is a tool which should save the power of your notebook/tabl
 The trayicon also have a dynamic view, this means it displays the current state of the bluetooth device. <br />
 <span style='color: rgba(255, 255, 255, 0.3)'><i>!ATTENTION! This feature is fake, the icon only changes when you use the menu, it is not reading the real on-state of the hci module!</i></span><br />
 This application is based on GTK and LibAppIndicator.
+
+---
+
+Read more at [prutheus.com]!
+
+[prutheus.com]: http://prutheus.com//posts/2017-04-16-GtkIndicatorApp%3A%20BluetoothControl.html
