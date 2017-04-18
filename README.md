@@ -11,4 +11,4 @@ This application is based on GTK and LibAppIndicator.
 
 Read more at [prutheus.com]!
 
-[prutheus.com]: http://prutheus.com//posts/2017-04-16-GtkIndicatorApp%3A%20BluetoothControl.html
+[prutheus.com]: http://prutheus.com/posts/2017-04-16-GtkIndicatorApp%3A%20BluetoothControl.html
