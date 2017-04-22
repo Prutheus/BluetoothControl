@@ -54,7 +54,7 @@ int main(int argc, char **argv) {
     error = NULL;
   }
 
-  indicator = app_indicator_new_with_path("BluetoothControl", "/home/prutheus/workspace/programming/c/BluetoothControl/bt_off.svg", APP_INDICATOR_CATEGORY_APPLICATION_STATUS, "/home/prutheus/workspace/programming/c/BluetoothControl/");
+  indicator = app_indicator_new_with_path("BluetoothControl", "/home/prutheus/workspace/programming/c/BluetoothControl/bt_on.svg", APP_INDICATOR_CATEGORY_APPLICATION_STATUS, "/home/prutheus/workspace/programming/c/BluetoothControl/");
 
   indicator_menu = gtk_ui_manager_get_widget(uim, "/ui/IndicatorPopup");
 
@@ -62,7 +62,7 @@ int main(int argc, char **argv) {
 
   app_indicator_set_menu(indicator, GTK_MENU(indicator_menu));
 
-  system("sudo hciconfig hci0 down");
+  system("sudo hciconfig hci0 up");
 
   gtk_main();
 
